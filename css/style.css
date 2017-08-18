@@ -1,0 +1,76 @@
+body  {
+	background-image: url('../img/bg5.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding-top: 50px!important;
+}
+
+.w3-lobster {
+	font-family: 'Courgette', cursive;
+	color: #333333;
+}
+
+.w3-student {
+	text-shadow:1px 1px 0 #444;
+	font-family: 'Inknut Antiqua', serif;
+	margin-bottom: 0;
+	text-align:center
+}
+.w3-instructor{
+	text-shadow:1px 1px 0 #ddd;
+	text-align:center;
+	margin-top: 0;
+	font-weight: 500;
+	font-family: 'Cherry Cream Soda', cursive;
+}
+.w3-uni{
+	text-shadow:1px 1px 0 #ddd;
+	font-weight: bold;
+	text-align:center;
+	font-family: 'BioRhyme', serif;
+	margin-bottom: 0; margin-top: 0
+}
+
+.outer-box{
+	padding: 30px 0 70px 0;
+	background: rgba(255,255,255, 0.6);
+	border-radius:8px!important;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+	width: 900px;
+	margin: auto
+
+}
+.inner-box{
+	margin-top: 30px!important;
+	padding:0.01em 16px;
+	background: rgba(204, 204, 204, 0.8);
+	border-radius:8px!important;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+	width: 500px;
+	/* height: 325px; */
+	margin: auto;
+}
+
+.equation{
+	width: 350px;
+	height: 45px;
+	display: inline;
+	border-radius:5px!important;
+	margin-top: 7px;
+	border: 1px solid #ccc!important;
+}
+.btn-go{
+	height: 45px;
+	width: 81px;
+	border-radius:5px!important;
+	margin-top: 0px;
+	color: #f44336!important;
+	background-color: #fff!important;
+	border: 1px solid #ccc!important;
+}
+.error{
+	display: block;
+	padding-top: 5px;
+	color: #f44336!important;
+}
